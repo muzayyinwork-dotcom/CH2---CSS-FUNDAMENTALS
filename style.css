@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(188, 188, 188);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+    a {
+        color: white;
+        padding: 5px;
+    }
+
+
+
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+
+    h1 {
+        color: rgb(68, 0, 0);
+        margin-bottom: 10px;
+    }
+}
+
+article {
+    background: grey;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+table {
+    width: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+
+    td,
+    th {
+        padding: 8px;
+        border: 1px solid black;
+    }
+}
+
+form {
+    padding: 20px;
+
+    input,
+    textarea {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    button {
+        background: black;
+        color: white;
+    }
+
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
